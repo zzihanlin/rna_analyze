@@ -1,0 +1,49 @@
+
+RNA/Cytokine Analysis Summary Report
+====================================
+
+Analysis Date: 2025-08-26
+Data Files: 11-19-20-C2.xlsx, 11-19-20-P2.xlsx
+
+Sample Groups:
+- Group S: Samples S001-S008 (Treatment group 1)
+- Group U: Samples U001-U026 (Treatment group 2)
+
+C2 Cytokines Analyzed: IL-15, IL-17A/F, IL-27p28/IL-30, IL-33, IL-9, IP-10, MCP-1, MIP-1α, MIP-2
+
+P2 Cytokines Analyzed: IFN-γ, IL-10, IL-12p70, IL-1β, IL-2, IL-4, IL-5, IL-6, KC/GRO, TNF-α
+
+Statistical Analysis:
+- Test: Two-sample t-test
+- Effect size: Cohen's d
+- Significance threshold: p < 0.05
+
+Key Findings:
+============
+
+C2 Cytokines - Significantly Different (p < 0.05):
+
+- IL-15: p = 1.188e-02, Effect size = 1.145
+- IL-17A/F: p = 9.865e-03, Effect size = 1.171
+- IL-27p28/IL-30: p = 9.726e-03, Effect size = 1.173
+- IL-9: p = 1.502e-02, Effect size = 1.119
+- MCP-1: p = 5.016e-03, Effect size = -1.286
+
+P2 Cytokines - Significantly Different (p < 0.05):
+- IFN-γ: p = 1.151e-02, Effect size = 1.144
+- IL-10: p = 1.086e-02, Effect size = 1.154
+- IL-12p70: p = 1.039e-02, Effect size = 1.162
+- IL-2: p = 1.006e-02, Effect size = 1.167
+- IL-4: p = 9.884e-03, Effect size = 1.170
+- IL-5: p = 9.995e-03, Effect size = 1.169
+- TNF-α: p = 3.312e-02, Effect size = 0.950
+
+Files Generated:
+- output/c2_cytokine_summary.csv
+- output/p2_cytokine_summary.csv
+- plots/c2_cytokine_boxplots.png
+- plots/p2_cytokine_boxplots.png
+- plots/c2_cytokine_correlation_matrix.png
+- plots/p2_cytokine_correlation_matrix.png
+
+Analysis complete!
